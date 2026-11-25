@@ -1,0 +1,45 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+, tested up to 7.1
+    PHP 8.1+ (strict types)
+    No database tables and no stored data
+    WP-CLI command and REST routes with argument schemas
+
+    ## Frontend
+    Two shortcode forms with inline styles, no script
+    Self-Hosted Admin Assets (no CDN)
+
+    ## Quality
+    Standalone test suite with a mutation check on PHP 8.1, 8.2 and 8.3
+    Read-only runtime check inside WordPress
+
+# SITE & PROJECT
+
+    Plugin: wm-k9-bh-exam-planner
+    Stack: WordPress Enterprise Extension
+    Standards: no runtime dependency on other plugins
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-k9-bh-exam-planner
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.

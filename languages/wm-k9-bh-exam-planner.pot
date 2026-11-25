@@ -1,0 +1,207 @@
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WM K9 BH Exam Planner 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-k9-bh-exam-planner\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-21T09:52:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wm-k9-bh-exam-planner\n"
+
+#. Plugin Name of the plugin
+#: wm-k9-bh-exam-planner.php
+#: includes/class-k9-admin-dashboard.php:144
+msgid "WM K9 BH Exam Planner"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "Zulassungs-Vorabprüfung (Alter, 15-stelliger Transpondercode, Sachkundenachweis) und Punkterechner für die Begleithundeprüfung (BH/VT), als Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+
+#. Author of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "Arnold Wender"
+msgstr ""
+
+#. Author URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:75
+msgid "K9 BH Exam Planner"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:76
+msgid "BH Exam Planner"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:117
+msgid "Übersicht"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:118
+#: includes/class-k9-admin-dashboard.php:190
+msgid "Zulassung"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:119
+#: includes/class-k9-admin-dashboard.php:198
+msgid "Bewertung"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:120
+msgid "Einstellungen"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:145
+msgid "Zulassungs-Vorabprüfung &amp; Punkterechner für die Begleithundeprüfung (BH/VT)"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:149
+msgid "Part of the WM Suite plugin family"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:151
+msgid "WM Suite"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Hub"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Standalone"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:154
+msgid "KEINE GESPEICHERTEN DATEN"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:159
+msgid "Module Tabs"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:171
+msgid "Was dieses Plugin tut"
+msgstr ""
+
+#. translators: 1: minimum age in months, 2: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:179
+#, php-format
+msgid "Zwei Rechner für die Begleithundeprüfung: eine Zulassungs-Vorabprüfung (Mindestalter %1$d Monate am Prüfungstag, %2$d-stelliger Transpondercode, Sachkundenachweis des Hundeführers) und ein Punkterechner für Teil A mit dem Ergebnis von Teil B. Beide laufen als Shortcode auf einer Seite und als REST-Route; die Zulassungsprüfung zusätzlich als WP-CLI-Befehl. Das Plugin speichert keine Hunde, Termine oder Bewertungen; diese Seite hat daher keine Zahlen."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:192
+#: includes/class-k9-admin-dashboard.php:200
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:193
+#: includes/class-k9-admin-dashboard.php:201
+msgid "REST:"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:194
+msgid "WP-CLI:"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:210
+msgid "Was die Zulassungs-Vorabprüfung prüft"
+msgstr ""
+
+#. translators: %d: minimum age in months
+#: includes/class-k9-admin-dashboard.php:215
+#, php-format
+msgid "Alter am Prüfungstag: mindestens %d volle Monate zwischen Geburtsdatum und Prüfungsdatum. Ein Monat ist am Tag mit derselben Zahl wie der Geburtstag vollendet, in kürzeren Monaten am Ersten des Folgemonats (Lesart von § 187 Abs. 2, § 188 Abs. 2 und 3 BGB; die Prüfungsordnung nennt keine Zählregel)."
+msgstr ""
+
+#. translators: %d: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:221
+#, php-format
+msgid "Transpondercode: nach Entfernen aller Nicht-Ziffern genau %d Ziffern. Es ist eine Formatprüfung; ob der Chip existiert oder zum Hund gehört, wird nicht geprüft."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:224
+msgid "Sachkundenachweis: so, wie der Aufrufer ihn angibt."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:226
+msgid "Die Werte sind fest im Code hinterlegt. Ein Mindestalter von fünfzehn Monaten nennt der VDH für die Begleithundprüfung; die FCI-Prüfungsordnung überlässt es der Landesorganisation (nicht unter 12 Monaten). Über die Zulassung entscheidet der ausrichtende Verein."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:233
+msgid "Wie der Punkterechner rechnet"
+msgstr ""
+
+#. translators: 1: list of exercises with maximum points, 2: maximum total, 3: points needed to pass
+#: includes/class-k9-admin-dashboard.php:244
+#, php-format
+msgid "Teil A: %1$s; jeder Wert wird auf seinen Bereich begrenzt und die Summe (max. %2$d) mit der Grenze verglichen, bevor sie für die Anzeige gerundet wird. Bestanden ab %3$d Punkten."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:252
+msgid "Teil B (Verkehrsteil): wird als bestanden oder nicht bestanden übergeben, nicht berechnet."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:253
+msgid "Ergebnis: BESTANDEN nur bei Teil A und Teil B; eine Disqualifikation (nur über REST) setzt alles auf DISQUALIFIZIERT."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:255
+msgid "Übungen und Höchstpunkte stammen aus der FCI-Prüfungsordnung 2019. Seit dem 01.01.2025 gilt die FCI-Prüfungsordnung 2025: Leinenführigkeit 30 Punkte, Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung 10, keine Freifolge; bestanden weiterhin ab 70 %. Der Rechner ist noch nicht umgestellt."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:262
+msgid "Deinstallation"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:274
+msgid "Datenbereinigung"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:284
+msgid "Plugin-Optionen und Transients beim endgültigen Löschen des Plugins entfernen"
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:287
+msgid "Standardmäßig bleiben Einstellungen bei der Deinstallation erhalten. Aktivieren Sie diese Option ausdrücklich, wenn beim Löschen des Plugins alle eigenen Options- und Transient-Einträge entfernt werden sollen."
+msgstr ""
+
+#: includes/class-k9-admin-dashboard.php:293
+msgid "Änderungen speichern"
+msgstr ""
+
+#. translators: 1: rule edition, 2: minimum age in months, 3: passing points, 4: maximum points
+#: includes/class-k9-ecosystem-bridges.php:56
+#, php-format
+msgid "%1$s · Mindestalter %2$d Monate · Teil A ab %3$s von %4$s Punkten"
+msgstr ""
+
+#: includes/class-k9-ecosystem-bridges.php:93
+msgid "BH/VT Prüfungsdaten"
+msgstr ""
+
+#: includes/class-k9-ecosystem-bridges.php:122
+msgid "K9 BH Prüfungsinfo"
+msgstr ""
+
+#: includes/class-k9-ecosystem-bridges.php:129
+msgid "Datenfeld"
+msgstr ""
+
+#: includes/class-k9-rest-controller.php:153
+msgid "Zu viele Anfragen. Bitte kurz warten und erneut versuchen."
+msgstr ""

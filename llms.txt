@@ -1,0 +1,22 @@
+# WM K9 BH Exam Planner
+
+> WordPress plugin with an admission pre-check (minimum age 15 months, 15-digit transponder code, handler Sachkundenachweis) and a score calculator (Teil A 60 points, 42 to pass, plus the Teil B result, exercise layout of the FCI-Prüfungsordnung 2019) for the companion dog trial (Begleithundeprüfung BH/VT), as shortcodes, public REST routes (`wm-k9/v1`) and a WP-CLI command (`wp k9`).
+
+## Overview
+
+`wm-k9-bh-exam-planner` is a WordPress plugin developed with an agentic workflow (AI coding agents). It stores nothing, makes no external request, has an information-only admin screen, and registers as a spoke of the WM Suite Hub when the hub is active. The values are fixed in the code; it is not an official judge's sheet, grants no admission and makes no rule-conformity claim. The FCI-Prüfungsordnung 2025 (valid from 1 January 2025) scores Teil A differently.
+
+## Standards
+
+- Version 1.2.2.
+- PHP 8.1+ with strict types
+- Zero-CDN invariant (no asset loaded from another host)
+- REST arguments validated by WordPress against declared schemas (400 for invalid booleans, numbers and dates)
+- Late escaping; standalone test suite with a mutation check
+- No personal data stored
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-k9-bh-exam-planner
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-k9-bh-exam-planner/issues only · no private support · AS IS / no liability (SUPPORT.md)

@@ -1,0 +1,291 @@
+# Translation of wm-k9-bh-exam-planner in bg_BG
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-k9-bh-exam-planner 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-k9-bh-exam-"
+"planner\n"
+"POT-Creation-Date: 2026-11-21T09:52:22+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:52+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-k9-bh-exam-planner\n"
+
+#. Plugin Name of the plugin
+#: wm-k9-bh-exam-planner.php includes/class-k9-admin-dashboard.php:144
+msgid "WM K9 BH Exam Planner"
+msgstr "WM K9 BH Exam Planner"
+
+#. Plugin URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+
+#. Description of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid ""
+"Zulassungs-Vorabprüfung (Alter, 15-stelliger Transpondercode, "
+"Sachkundenachweis) und Punkterechner für die Begleithundeprüfung (BH/VT), "
+"als Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Предварителна проверка за допускане (възраст, 15-цифрен код на транспондер, "
+"удостоверение на водача) и калкулатор на точки за изпита за куче компаньон "
+"(BH/VT) като шорткод, REST маршрут и WP-CLI команда."
+
+#. Author of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-k9-admin-dashboard.php:75
+msgid "K9 BH Exam Planner"
+msgstr "Планировчик за изпит K9 BH"
+
+#: includes/class-k9-admin-dashboard.php:76
+msgid "BH Exam Planner"
+msgstr "Планировчик BH"
+
+#: includes/class-k9-admin-dashboard.php:117
+msgid "Übersicht"
+msgstr "Преглед"
+
+#: includes/class-k9-admin-dashboard.php:118
+#: includes/class-k9-admin-dashboard.php:190
+msgid "Zulassung"
+msgstr "Допускане"
+
+#: includes/class-k9-admin-dashboard.php:119
+#: includes/class-k9-admin-dashboard.php:198
+msgid "Bewertung"
+msgstr "Оценяване"
+
+#: includes/class-k9-admin-dashboard.php:120
+msgid "Einstellungen"
+msgstr "Настройки"
+
+#: includes/class-k9-admin-dashboard.php:145
+msgid ""
+"Zulassungs-Vorabprüfung &amp; Punkterechner für die Begleithundeprüfung (BH/"
+"VT)"
+msgstr ""
+"Предварителна проверка за допускане &amp; калкулатор на точки за изпита BH/VT"
+
+#: includes/class-k9-admin-dashboard.php:149
+msgid "Part of the WM Suite plugin family"
+msgstr "Част от фамилията плъгини на WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:151
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Hub"
+msgstr "Хъб"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Standalone"
+msgstr "Самостоятелен"
+
+#: includes/class-k9-admin-dashboard.php:154
+msgid "KEINE GESPEICHERTEN DATEN"
+msgstr "НЯМА ЗАПИСАНИ ДАННИ"
+
+#: includes/class-k9-admin-dashboard.php:159
+msgid "Module Tabs"
+msgstr "Раздели на модула"
+
+#: includes/class-k9-admin-dashboard.php:171
+msgid "Was dieses Plugin tut"
+msgstr "Какво прави този плъгин"
+
+#. translators: 1: minimum age in months, 2: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:179
+#, php-format
+msgid ""
+"Zwei Rechner für die Begleithundeprüfung: eine Zulassungs-Vorabprüfung "
+"(Mindestalter %1$d Monate am Prüfungstag, %2$d-stelliger Transpondercode, "
+"Sachkundenachweis des Hundeführers) und ein Punkterechner für Teil A mit dem "
+"Ergebnis von Teil B. Beide laufen als Shortcode auf einer Seite und als REST-"
+"Route; die Zulassungsprüfung zusätzlich als WP-CLI-Befehl. Das Plugin "
+"speichert keine Hunde, Termine oder Bewertungen; diese Seite hat daher keine "
+"Zahlen."
+msgstr ""
+"Два калкулатора за изпита за куче компаньон: предварителна проверка за "
+"допускане (минимална възраст %1$d месеца в деня на изпита, %2$d-цифрен код "
+"на транспондера, удостоверение на водача) и калкулатор на точки за Част A "
+"заедно с резултата от Част B. И двата работят като шорткод на страница и "
+"като REST маршрут; проверката за допускане — и като WP-CLI команда. Плъгинът "
+"не съхранява кучета, дати или оценки, затова на тази страница няма числа."
+
+#: includes/class-k9-admin-dashboard.php:192
+#: includes/class-k9-admin-dashboard.php:200
+msgid "Shortcode:"
+msgstr "Шорткод:"
+
+#: includes/class-k9-admin-dashboard.php:193
+#: includes/class-k9-admin-dashboard.php:201
+msgid "REST:"
+msgstr "REST API:"
+
+#: includes/class-k9-admin-dashboard.php:194
+msgid "WP-CLI:"
+msgstr "WP-CLI:"
+
+#: includes/class-k9-admin-dashboard.php:210
+msgid "Was die Zulassungs-Vorabprüfung prüft"
+msgstr "Какво проверява предварителната проверка за допускане"
+
+#. translators: %d: minimum age in months
+#: includes/class-k9-admin-dashboard.php:215
+#, php-format
+msgid ""
+"Alter am Prüfungstag: mindestens %d volle Monate zwischen Geburtsdatum und "
+"Prüfungsdatum. Ein Monat ist am Tag mit derselben Zahl wie der Geburtstag "
+"vollendet, in kürzeren Monaten am Ersten des Folgemonats (Lesart von § 187 "
+"Abs. 2, § 188 Abs. 2 und 3 BGB; die Prüfungsordnung nennt keine Zählregel)."
+msgstr ""
+"Възраст в деня на изпита: най-малко %d пълни календарни месеца между датата "
+"на раждане и датата на изпита. Месецът се навършва в деня със същото число "
+"като рождения ден, а в по-кратките месеци — на първия ден от следващия месец "
+"(тълкуване на §§ 187 ал. 2, 188 ал. 2 и 3 BGB; правилникът не задава правило "
+"за броене)."
+
+#. translators: %d: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:221
+#, php-format
+msgid ""
+"Transpondercode: nach Entfernen aller Nicht-Ziffern genau %d Ziffern. Es ist "
+"eine Formatprüfung; ob der Chip existiert oder zum Hund gehört, wird nicht "
+"geprüft."
+msgstr ""
+"Код на транспондера: след премахване на всички нецифрови знаци точно %d "
+"цифри. Това е само проверка на формата; не се проверява дали чипът "
+"съществува или принадлежи на кучето."
+
+#: includes/class-k9-admin-dashboard.php:224
+msgid "Sachkundenachweis: so, wie der Aufrufer ihn angibt."
+msgstr ""
+"Удостоверение за правоспособност (Sachkundenachweis): така, както е посочено "
+"от подателя."
+
+#: includes/class-k9-admin-dashboard.php:226
+msgid ""
+"Die Werte sind fest im Code hinterlegt. Ein Mindestalter von fünfzehn "
+"Monaten nennt der VDH für die Begleithundprüfung; die FCI-Prüfungsordnung "
+"überlässt es der Landesorganisation (nicht unter 12 Monaten). Über die "
+"Zulassung entscheidet der ausrichtende Verein."
+msgstr ""
+"Стойностите са фиксирани в кода. VDH посочва петнадесет месеца минимална "
+"възраст за Begleithundprüfung; правилникът на FCI оставя това на "
+"националната организация (не под 12 месеца). За допускането решава клубът "
+"организатор."
+
+#: includes/class-k9-admin-dashboard.php:233
+msgid "Wie der Punkterechner rechnet"
+msgstr "Как изчислява калкулаторът на точки"
+
+#. translators: 1: list of exercises with maximum points, 2: maximum total, 3: points needed to pass
+#: includes/class-k9-admin-dashboard.php:244
+#, php-format
+msgid ""
+"Teil A: %1$s; jeder Wert wird auf seinen Bereich begrenzt und die Summe "
+"(max. %2$d) mit der Grenze verglichen, bevor sie für die Anzeige gerundet "
+"wird. Bestanden ab %3$d Punkten."
+msgstr ""
+"Част A: %1$s; всяка стойност се ограничава в своя обхват и сумата (макс. "
+"%2$d) се сравнява с прага преди закръгляване за показване. Издържан от %3$d "
+"точки."
+
+#: includes/class-k9-admin-dashboard.php:252
+msgid ""
+"Teil B (Verkehrsteil): wird als bestanden oder nicht bestanden übergeben, "
+"nicht berechnet."
+msgstr ""
+"Част B (градска част): подава се като издържана или неиздържана, не се "
+"изчислява."
+
+#: includes/class-k9-admin-dashboard.php:253
+msgid ""
+"Ergebnis: BESTANDEN nur bei Teil A und Teil B; eine Disqualifikation (nur "
+"über REST) setzt alles auf DISQUALIFIZIERT."
+msgstr ""
+"Резултат: BESTANDEN само при издържани Част A и Част B; дисквалификация "
+"(само през REST) задава DISQUALIFIZIERT."
+
+#: includes/class-k9-admin-dashboard.php:255
+msgid ""
+"Übungen und Höchstpunkte stammen aus der FCI-Prüfungsordnung 2019. Seit dem "
+"01.01.2025 gilt die FCI-Prüfungsordnung 2025: Leinenführigkeit 30 Punkte, "
+"Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung "
+"10, keine Freifolge; bestanden weiterhin ab 70 %. Der Rechner ist noch nicht "
+"umgestellt."
+msgstr ""
+"Упражненията и максималните точки са по правилника на FCI от 2019 г. От "
+"01.01.2025 г. важи правилникът на FCI от 2025 г.: Leinenführigkeit 30 точки, "
+"Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung "
+"10, без Freifolge; прагът остава 70%. Калкулаторът още не е превключен."
+
+#: includes/class-k9-admin-dashboard.php:262
+msgid "Deinstallation"
+msgstr "Деинсталиране"
+
+#: includes/class-k9-admin-dashboard.php:274
+msgid "Datenbereinigung"
+msgstr "Почистване на данни"
+
+#: includes/class-k9-admin-dashboard.php:284
+msgid ""
+"Plugin-Optionen und Transients beim endgültigen Löschen des Plugins entfernen"
+msgstr ""
+"Премахване на настройките и временните записи на плъгина при окончателното "
+"му изтриване"
+
+#: includes/class-k9-admin-dashboard.php:287
+msgid ""
+"Standardmäßig bleiben Einstellungen bei der Deinstallation erhalten. "
+"Aktivieren Sie diese Option ausdrücklich, wenn beim Löschen des Plugins alle "
+"eigenen Options- und Transient-Einträge entfernt werden sollen."
+msgstr ""
+"По подразбиране настройките се запазват при деинсталиране. Включете изрично "
+"тази опция, ако при изтриване на плъгина трябва да се премахнат всички "
+"негови опции и transient записи."
+
+#: includes/class-k9-admin-dashboard.php:293
+msgid "Änderungen speichern"
+msgstr "Запазване на промените"
+
+#. translators: 1: rule edition, 2: minimum age in months, 3: passing points, 4: maximum points
+#: includes/class-k9-ecosystem-bridges.php:56
+#, php-format
+msgid "%1$s · Mindestalter %2$d Monate · Teil A ab %3$s von %4$s Punkten"
+msgstr "%1$s · Мин. възраст %2$d мес. · Част A от %3$s от %4$s точки"
+
+#: includes/class-k9-ecosystem-bridges.php:93
+msgid "BH/VT Prüfungsdaten"
+msgstr "Данни за изпит BH/VT"
+
+#: includes/class-k9-ecosystem-bridges.php:122
+msgid "K9 BH Prüfungsinfo"
+msgstr "Информация за изпит K9 BH"
+
+#: includes/class-k9-ecosystem-bridges.php:129
+msgid "Datenfeld"
+msgstr "Поле за данни"
+
+#: includes/class-k9-rest-controller.php:153
+msgid "Zu viele Anfragen. Bitte kurz warten und erneut versuchen."
+msgstr "Твърде много заявки. Изчакайте малко и опитайте отново."

@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-16T23:30:00Z",
+    "component": {
+      "type": "application",
+      "name": "wm-k9-bh-exam-planner",
+      "version": "1.2.2",
+      "description": "Admission pre-check (age, 15-digit transponder code, handler certificate) and score calculator for the companion dog trial (BH/VT), as shortcodes, REST routes and a WP-CLI command.",
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      },
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "purl": "pkg:wordpress/wm-k9-bh-exam-planner@1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "981730f920644a03b0df56d1490c40189a942d94ed697e3ad47615bb161a6d0d"
+        }
+      ]
+    }
+  },
+  "components": []
+}

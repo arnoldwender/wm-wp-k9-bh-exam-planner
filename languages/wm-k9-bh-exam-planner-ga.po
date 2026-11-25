@@ -1,0 +1,289 @@
+# Translation of wm-k9-bh-exam-planner in ga
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-k9-bh-exam-planner 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-k9-bh-exam-"
+"planner\n"
+"POT-Creation-Date: 2026-11-21T09:52:22+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:52+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-k9-bh-exam-planner\n"
+
+#. Plugin Name of the plugin
+#: wm-k9-bh-exam-planner.php includes/class-k9-admin-dashboard.php:144
+msgid "WM K9 BH Exam Planner"
+msgstr "WM K9 BH Exam Planner"
+
+#. Plugin URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+
+#. Description of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid ""
+"Zulassungs-Vorabprüfung (Alter, 15-stelliger Transpondercode, "
+"Sachkundenachweis) und Punkterechner für die Begleithundeprüfung (BH/VT), "
+"als Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Réamhsheiceáil iontrála (aois, cód trasfhreagróra 15 dhigit, teastas "
+"láimhseálaí) agus áireamhán scóir do thriail an mhadra chompánaigh (BH/VT), "
+"mar shortcode, bealach REST agus ordú WP-CLI."
+
+#. Author of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-k9-admin-dashboard.php:75
+msgid "K9 BH Exam Planner"
+msgstr "Pleanálaí Scrúdaithe K9 BH"
+
+#: includes/class-k9-admin-dashboard.php:76
+msgid "BH Exam Planner"
+msgstr "Pleanálaí Scrúdaithe BH"
+
+#: includes/class-k9-admin-dashboard.php:117
+msgid "Übersicht"
+msgstr "Forbhreathnú"
+
+#: includes/class-k9-admin-dashboard.php:118
+#: includes/class-k9-admin-dashboard.php:190
+msgid "Zulassung"
+msgstr "Iontráil"
+
+#: includes/class-k9-admin-dashboard.php:119
+#: includes/class-k9-admin-dashboard.php:198
+msgid "Bewertung"
+msgstr "Moltóireacht"
+
+#: includes/class-k9-admin-dashboard.php:120
+msgid "Einstellungen"
+msgstr "Socruithe"
+
+#: includes/class-k9-admin-dashboard.php:145
+msgid ""
+"Zulassungs-Vorabprüfung &amp; Punkterechner für die Begleithundeprüfung (BH/"
+"VT)"
+msgstr "Réamhsheiceáil iontrála &amp; áireamhán scóir do thriail BH/VT"
+
+#: includes/class-k9-admin-dashboard.php:149
+msgid "Part of the WM Suite plugin family"
+msgstr "Cuid de theaghlach breiseán WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:151
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Hub"
+msgstr "Mol"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Standalone"
+msgstr "Neamhspleách"
+
+#: includes/class-k9-admin-dashboard.php:154
+msgid "KEINE GESPEICHERTEN DATEN"
+msgstr "GAN SONRAÍ STÓRÁILTE"
+
+#: includes/class-k9-admin-dashboard.php:159
+msgid "Module Tabs"
+msgstr "Cluaisíní an Mhodúil"
+
+#: includes/class-k9-admin-dashboard.php:171
+msgid "Was dieses Plugin tut"
+msgstr "Cad a dhéanann an breiseán seo"
+
+#. translators: 1: minimum age in months, 2: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:179
+#, php-format
+msgid ""
+"Zwei Rechner für die Begleithundeprüfung: eine Zulassungs-Vorabprüfung "
+"(Mindestalter %1$d Monate am Prüfungstag, %2$d-stelliger Transpondercode, "
+"Sachkundenachweis des Hundeführers) und ein Punkterechner für Teil A mit dem "
+"Ergebnis von Teil B. Beide laufen als Shortcode auf einer Seite und als REST-"
+"Route; die Zulassungsprüfung zusätzlich als WP-CLI-Befehl. Das Plugin "
+"speichert keine Hunde, Termine oder Bewertungen; diese Seite hat daher keine "
+"Zahlen."
+msgstr ""
+"Dhá áireamhán do thriail an mhadra chompánaigh: réamhsheiceáil iontrála (íos-"
+"aois %1$d mí ar lá na trialach, cód trasfhreagróra %2$d dhigit, teastas "
+"inniúlachta an láimhseálaí) agus áireamhán scóir do Chuid A in éineacht le "
+"toradh Chuid B. Ritheann an dá cheann mar shortcode ar leathanach agus mar "
+"bhealach REST; ritheann an tseiceáil iontrála mar ordú WP-CLI freisin. Ní "
+"stórálann an breiseán madraí, dátaí ná scóir, mar sin níl aon fhigiúirí ar "
+"an leathanach seo."
+
+#: includes/class-k9-admin-dashboard.php:192
+#: includes/class-k9-admin-dashboard.php:200
+msgid "Shortcode:"
+msgstr "Gearrchód:"
+
+#: includes/class-k9-admin-dashboard.php:193
+#: includes/class-k9-admin-dashboard.php:201
+msgid "REST:"
+msgstr "REST API:"
+
+#: includes/class-k9-admin-dashboard.php:194
+msgid "WP-CLI:"
+msgstr "WP-CLI:"
+
+#: includes/class-k9-admin-dashboard.php:210
+msgid "Was die Zulassungs-Vorabprüfung prüft"
+msgstr "Cad a sheiceálann an réamhsheiceáil iontrála"
+
+#. translators: %d: minimum age in months
+#: includes/class-k9-admin-dashboard.php:215
+#, php-format
+msgid ""
+"Alter am Prüfungstag: mindestens %d volle Monate zwischen Geburtsdatum und "
+"Prüfungsdatum. Ein Monat ist am Tag mit derselben Zahl wie der Geburtstag "
+"vollendet, in kürzeren Monaten am Ersten des Folgemonats (Lesart von § 187 "
+"Abs. 2, § 188 Abs. 2 und 3 BGB; die Prüfungsordnung nennt keine Zählregel)."
+msgstr ""
+"Aois ar lá na trialach: ar a laghad %d mí féilire iomlána idir an dáta "
+"breithe agus dáta na trialach. Críochnaítear mí ar an lá a bhfuil an uimhir "
+"chéanna air leis an lá breithe, agus i míonna níos giorra ar an gcéad lá den "
+"mhí dar gcionn (léamh §§ 187 mír 2, 188 mír 2 agus 3 BGB; ní luaitear riail "
+"chomhairimh sna rialacháin)."
+
+#. translators: %d: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:221
+#, php-format
+msgid ""
+"Transpondercode: nach Entfernen aller Nicht-Ziffern genau %d Ziffern. Es ist "
+"eine Formatprüfung; ob der Chip existiert oder zum Hund gehört, wird nicht "
+"geprüft."
+msgstr ""
+"Cód trasfhreagróra: tar éis gach carachtar nach digit é a bhaint, díreach %d "
+"digit. Seiceáil formáide amháin atá ann; ní sheiceáiltear an bhfuil an slis "
+"ann ná ar leis an madra í."
+
+#: includes/class-k9-admin-dashboard.php:224
+msgid "Sachkundenachweis: so, wie der Aufrufer ihn angibt."
+msgstr ""
+"Teastas inniúlachta (Sachkundenachweis): mar a dhearbhaíonn an glaoiteoir."
+
+#: includes/class-k9-admin-dashboard.php:226
+msgid ""
+"Die Werte sind fest im Code hinterlegt. Ein Mindestalter von fünfzehn "
+"Monaten nennt der VDH für die Begleithundprüfung; die FCI-Prüfungsordnung "
+"überlässt es der Landesorganisation (nicht unter 12 Monaten). Über die "
+"Zulassung entscheidet der ausrichtende Verein."
+msgstr ""
+"Tá na luachanna socraithe sa chód. Luaitear cúig mhí dhéag mar íos-aois ag "
+"an VDH don Begleithundprüfung; fágann rialacháin FCI faoin eagraíocht "
+"náisiúnta é (gan a bheith faoi bhun 12 mhí). Is é an club eagraitheach a "
+"chinneann an iontráil."
+
+#: includes/class-k9-admin-dashboard.php:233
+msgid "Wie der Punkterechner rechnet"
+msgstr "Conas a ríomhann an t-áireamhán scóir"
+
+#. translators: 1: list of exercises with maximum points, 2: maximum total, 3: points needed to pass
+#: includes/class-k9-admin-dashboard.php:244
+#, php-format
+msgid ""
+"Teil A: %1$s; jeder Wert wird auf seinen Bereich begrenzt und die Summe "
+"(max. %2$d) mit der Grenze verglichen, bevor sie für die Anzeige gerundet "
+"wird. Bestanden ab %3$d Punkten."
+msgstr ""
+"Cuid A: %1$s; cuirtear teorainn le gach luach dá raon agus déantar an tsuim "
+"(uas. %2$d) a chur i gcomparáid leis an tairseach roimh shlánú le haghaidh "
+"taispeána. Pas ó %3$d pointe."
+
+#: includes/class-k9-admin-dashboard.php:252
+msgid ""
+"Teil B (Verkehrsteil): wird als bestanden oder nicht bestanden übergeben, "
+"nicht berechnet."
+msgstr "Cuid B (cuid tráchta): tugtar isteach mar phas nó teip, ní ríomhtar í."
+
+#: includes/class-k9-admin-dashboard.php:253
+msgid ""
+"Ergebnis: BESTANDEN nur bei Teil A und Teil B; eine Disqualifikation (nur "
+"über REST) setzt alles auf DISQUALIFIZIERT."
+msgstr ""
+"Toradh: BESTANDEN ach amháin nuair a éiríonn le Cuid A agus Cuid B araon; "
+"cuireann dícháiliú (trí REST amháin) gach rud go DISQUALIFIZIERT."
+
+#: includes/class-k9-admin-dashboard.php:255
+msgid ""
+"Übungen und Höchstpunkte stammen aus der FCI-Prüfungsordnung 2019. Seit dem "
+"01.01.2025 gilt die FCI-Prüfungsordnung 2025: Leinenführigkeit 30 Punkte, "
+"Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung "
+"10, keine Freifolge; bestanden weiterhin ab 70 %. Der Rechner ist noch nicht "
+"umgestellt."
+msgstr ""
+"Tagann na cleachtaí agus na huasmharcanna ó rialacháin FCI 2019. Ón "
+"01.01.2025 tá feidhm ag rialacháin FCI 2025: Leinenführigkeit 30 pointe, "
+"Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung "
+"10, gan Freifolge; tá an pas fós ag 70%. Níor athraíodh an t-áireamhán fós."
+
+#: includes/class-k9-admin-dashboard.php:262
+msgid "Deinstallation"
+msgstr "Díshuiteáil"
+
+#: includes/class-k9-admin-dashboard.php:274
+msgid "Datenbereinigung"
+msgstr "Glanadh sonraí"
+
+#: includes/class-k9-admin-dashboard.php:284
+msgid ""
+"Plugin-Optionen und Transients beim endgültigen Löschen des Plugins entfernen"
+msgstr ""
+"Bain roghanna agus sonraí sealadacha an bhreiseáin nuair a scriostar an "
+"breiseán go buan"
+
+#: includes/class-k9-admin-dashboard.php:287
+msgid ""
+"Standardmäßig bleiben Einstellungen bei der Deinstallation erhalten. "
+"Aktivieren Sie diese Option ausdrücklich, wenn beim Löschen des Plugins alle "
+"eigenen Options- und Transient-Einträge entfernt werden sollen."
+msgstr ""
+"De réir réamhshocraithe coimeádtar na socruithe ar dhíshuiteáil. Cumasaigh "
+"an rogha seo go sainráite más mian leat gach iontráil rogha agus transient "
+"de chuid an bhreiseáin a bhaint nuair a scriostar é."
+
+#: includes/class-k9-admin-dashboard.php:293
+msgid "Änderungen speichern"
+msgstr "Sábháil athruithe"
+
+#. translators: 1: rule edition, 2: minimum age in months, 3: passing points, 4: maximum points
+#: includes/class-k9-ecosystem-bridges.php:56
+#, php-format
+msgid "%1$s · Mindestalter %2$d Monate · Teil A ab %3$s von %4$s Punkten"
+msgstr "%1$s · Íos-aois %2$d mí · Cuid A ó %3$s as %4$s pointe"
+
+#: includes/class-k9-ecosystem-bridges.php:93
+msgid "BH/VT Prüfungsdaten"
+msgstr "Sonraí Scrúdaithe BH/VT"
+
+#: includes/class-k9-ecosystem-bridges.php:122
+msgid "K9 BH Prüfungsinfo"
+msgstr "Eolas Scrúdaithe K9 BH"
+
+#: includes/class-k9-ecosystem-bridges.php:129
+msgid "Datenfeld"
+msgstr "Réimse sonraí"
+
+#: includes/class-k9-rest-controller.php:153
+msgid "Zu viele Anfragen. Bitte kurz warten und erneut versuchen."
+msgstr "An iomarca iarratas. Fan tamall beag agus bain triail eile as."

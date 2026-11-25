@@ -1,0 +1,292 @@
+# Translation of wm-k9-bh-exam-planner in ro_RO
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-k9-bh-exam-planner 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-k9-bh-exam-"
+"planner\n"
+"POT-Creation-Date: 2026-11-21T09:52:22+00:00\n"
+"PO-Revision-Date: 2026-11-21 10:52+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-k9-bh-exam-"
+"planner/issues>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && "
+"n%100<20)) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-k9-bh-exam-planner\n"
+
+#. Plugin Name of the plugin
+#: wm-k9-bh-exam-planner.php includes/class-k9-admin-dashboard.php:144
+msgid "WM K9 BH Exam Planner"
+msgstr "WM K9 BH Exam Planner"
+
+#. Plugin URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-k9-bh-exam-planner/"
+
+#. Description of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid ""
+"Zulassungs-Vorabprüfung (Alter, 15-stelliger Transpondercode, "
+"Sachkundenachweis) und Punkterechner für die Begleithundeprüfung (BH/VT), "
+"als Shortcode, REST-Route und WP-CLI-Befehl."
+msgstr ""
+"Preverificare de admitere (vârstă, cod transponder de 15 cifre, certificat "
+"al conductorului) și calculator de punctaj pentru examenul câinelui de "
+"companie (BH/VT), ca shortcode, rută REST și comandă WP-CLI."
+
+#. Author of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-k9-bh-exam-planner.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-k9-admin-dashboard.php:75
+msgid "K9 BH Exam Planner"
+msgstr "Planificator examen K9 BH"
+
+#: includes/class-k9-admin-dashboard.php:76
+msgid "BH Exam Planner"
+msgstr "Planificator examen BH"
+
+#: includes/class-k9-admin-dashboard.php:117
+msgid "Übersicht"
+msgstr "Prezentare generală"
+
+#: includes/class-k9-admin-dashboard.php:118
+#: includes/class-k9-admin-dashboard.php:190
+msgid "Zulassung"
+msgstr "Admitere"
+
+#: includes/class-k9-admin-dashboard.php:119
+#: includes/class-k9-admin-dashboard.php:198
+msgid "Bewertung"
+msgstr "Evaluare"
+
+#: includes/class-k9-admin-dashboard.php:120
+msgid "Einstellungen"
+msgstr "Setări"
+
+#: includes/class-k9-admin-dashboard.php:145
+msgid ""
+"Zulassungs-Vorabprüfung &amp; Punkterechner für die Begleithundeprüfung (BH/"
+"VT)"
+msgstr ""
+"Preverificare de admitere &amp; calculator de punctaj pentru examenul BH/VT"
+
+#: includes/class-k9-admin-dashboard.php:149
+msgid "Part of the WM Suite plugin family"
+msgstr "Parte din familia de module WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:151
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Hub"
+msgstr "Hub"
+
+#: includes/class-k9-admin-dashboard.php:152
+msgid "Standalone"
+msgstr "Independent"
+
+#: includes/class-k9-admin-dashboard.php:154
+msgid "KEINE GESPEICHERTEN DATEN"
+msgstr "FĂRĂ DATE STOCATE"
+
+#: includes/class-k9-admin-dashboard.php:159
+msgid "Module Tabs"
+msgstr "Filele modulului"
+
+#: includes/class-k9-admin-dashboard.php:171
+msgid "Was dieses Plugin tut"
+msgstr "Ce face acest modul"
+
+#. translators: 1: minimum age in months, 2: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:179
+#, php-format
+msgid ""
+"Zwei Rechner für die Begleithundeprüfung: eine Zulassungs-Vorabprüfung "
+"(Mindestalter %1$d Monate am Prüfungstag, %2$d-stelliger Transpondercode, "
+"Sachkundenachweis des Hundeführers) und ein Punkterechner für Teil A mit dem "
+"Ergebnis von Teil B. Beide laufen als Shortcode auf einer Seite und als REST-"
+"Route; die Zulassungsprüfung zusätzlich als WP-CLI-Befehl. Das Plugin "
+"speichert keine Hunde, Termine oder Bewertungen; diese Seite hat daher keine "
+"Zahlen."
+msgstr ""
+"Două calculatoare pentru examenul BH/VT: o preverificare de admitere (vârsta "
+"minimă de %1$d luni în ziua examenului, cod transponder de %2$d cifre, "
+"certificatul conductorului) și un calculator de punctaj pentru Partea A "
+"combinată cu rezultatul Părții B. Ambele rulează ca shortcode într-o pagină "
+"și ca rută REST; verificarea admiterii și ca comandă WP-CLI. Modulul nu "
+"salvează câini, date sau evaluări, astfel că această pagină nu afișează "
+"cifre."
+
+#: includes/class-k9-admin-dashboard.php:192
+#: includes/class-k9-admin-dashboard.php:200
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: includes/class-k9-admin-dashboard.php:193
+#: includes/class-k9-admin-dashboard.php:201
+msgid "REST:"
+msgstr "API REST:"
+
+#: includes/class-k9-admin-dashboard.php:194
+msgid "WP-CLI:"
+msgstr "WP-CLI:"
+
+#: includes/class-k9-admin-dashboard.php:210
+msgid "Was die Zulassungs-Vorabprüfung prüft"
+msgstr "Ce verifică preverificarea admiterii"
+
+#. translators: %d: minimum age in months
+#: includes/class-k9-admin-dashboard.php:215
+#, php-format
+msgid ""
+"Alter am Prüfungstag: mindestens %d volle Monate zwischen Geburtsdatum und "
+"Prüfungsdatum. Ein Monat ist am Tag mit derselben Zahl wie der Geburtstag "
+"vollendet, in kürzeren Monaten am Ersten des Folgemonats (Lesart von § 187 "
+"Abs. 2, § 188 Abs. 2 und 3 BGB; die Prüfungsordnung nennt keine Zählregel)."
+msgstr ""
+"Vârsta în ziua examenului: cel puțin %d luni calendaristice complete între "
+"data nașterii și data examenului. O lună se împlinește în ziua cu același "
+"număr ca ziua nașterii, iar în lunile mai scurte în prima zi a lunii "
+"următoare (interpretarea §§ 187 alin. 2, 188 alin. 2 și 3 BGB; regulamentul "
+"nu indică regulă de calcul)."
+
+#. translators: %d: number of digits of the transponder code
+#: includes/class-k9-admin-dashboard.php:221
+#, php-format
+msgid ""
+"Transpondercode: nach Entfernen aller Nicht-Ziffern genau %d Ziffern. Es ist "
+"eine Formatprüfung; ob der Chip existiert oder zum Hund gehört, wird nicht "
+"geprüft."
+msgstr ""
+"Cod transponder: după eliminarea tuturor caracterelor nenumerice, exact %d "
+"cifre. Este doar o verificare de format; nu se verifică dacă cipul există "
+"sau aparține câinelui."
+
+#: includes/class-k9-admin-dashboard.php:224
+msgid "Sachkundenachweis: so, wie der Aufrufer ihn angibt."
+msgstr ""
+"Certificat de competență (Sachkundenachweis): așa cum este declarat de "
+"apelant."
+
+#: includes/class-k9-admin-dashboard.php:226
+msgid ""
+"Die Werte sind fest im Code hinterlegt. Ein Mindestalter von fünfzehn "
+"Monaten nennt der VDH für die Begleithundprüfung; die FCI-Prüfungsordnung "
+"überlässt es der Landesorganisation (nicht unter 12 Monaten). Über die "
+"Zulassung entscheidet der ausrichtende Verein."
+msgstr ""
+"Valorile sunt fixate în cod. VDH prevede vârsta minimă de cincisprezece luni "
+"pentru Begleithundprüfung; regulamentul FCI o lasă organizației naționale "
+"(nu sub 12 luni). Admiterea este decisă de clubul organizator."
+
+#: includes/class-k9-admin-dashboard.php:233
+msgid "Wie der Punkterechner rechnet"
+msgstr "Cum calculează calculatorul de punctaj"
+
+#. translators: 1: list of exercises with maximum points, 2: maximum total, 3: points needed to pass
+#: includes/class-k9-admin-dashboard.php:244
+#, php-format
+msgid ""
+"Teil A: %1$s; jeder Wert wird auf seinen Bereich begrenzt und die Summe "
+"(max. %2$d) mit der Grenze verglichen, bevor sie für die Anzeige gerundet "
+"wird. Bestanden ab %3$d Punkten."
+msgstr ""
+"Partea A: %1$s; fiecare valoare este limitată la intervalul său, iar suma "
+"(max. %2$d) este comparată cu pragul înainte de rotunjirea pentru afișare. "
+"Promovat de la %3$d puncte."
+
+#: includes/class-k9-admin-dashboard.php:252
+msgid ""
+"Teil B (Verkehrsteil): wird als bestanden oder nicht bestanden übergeben, "
+"nicht berechnet."
+msgstr ""
+"Partea B (proba în trafic): este transmisă ca promovată sau nepromovată, nu "
+"calculată."
+
+#: includes/class-k9-admin-dashboard.php:253
+msgid ""
+"Ergebnis: BESTANDEN nur bei Teil A und Teil B; eine Disqualifikation (nur "
+"über REST) setzt alles auf DISQUALIFIZIERT."
+msgstr ""
+"Rezultat: BESTANDEN doar cu Partea A și Partea B promovate; o descalificare "
+"(doar prin REST) setează totul la DISQUALIFIZIERT."
+
+#: includes/class-k9-admin-dashboard.php:255
+msgid ""
+"Übungen und Höchstpunkte stammen aus der FCI-Prüfungsordnung 2019. Seit dem "
+"01.01.2025 gilt die FCI-Prüfungsordnung 2025: Leinenführigkeit 30 Punkte, "
+"Sitz 10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung "
+"10, keine Freifolge; bestanden weiterhin ab 70 %. Der Rechner ist noch nicht "
+"umgestellt."
+msgstr ""
+"Exercițiile și punctajele maxime provin din regulamentul FCI 2019. De la "
+"01.01.2025 se aplică regulamentul FCI 2025: Leinenführigkeit 30 puncte, Sitz "
+"10, Ablegen in Verbindung mit Herankommen 10, Ablegen unter Ablenkung 10, "
+"fără Freifolge; pragul rămâne 70%. Calculatorul nu a fost încă comutat."
+
+#: includes/class-k9-admin-dashboard.php:262
+msgid "Deinstallation"
+msgstr "Dezinstalare"
+
+#: includes/class-k9-admin-dashboard.php:274
+msgid "Datenbereinigung"
+msgstr "Curățarea datelor"
+
+#: includes/class-k9-admin-dashboard.php:284
+msgid ""
+"Plugin-Optionen und Transients beim endgültigen Löschen des Plugins entfernen"
+msgstr ""
+"Elimină opțiunile și datele tranzitorii ale modulului la ștergerea "
+"definitivă a modulului"
+
+#: includes/class-k9-admin-dashboard.php:287
+msgid ""
+"Standardmäßig bleiben Einstellungen bei der Deinstallation erhalten. "
+"Aktivieren Sie diese Option ausdrücklich, wenn beim Löschen des Plugins alle "
+"eigenen Options- und Transient-Einträge entfernt werden sollen."
+msgstr ""
+"În mod implicit, setările sunt păstrate la dezinstalare. Activați explicit "
+"această opțiune dacă la ștergerea modulului trebuie eliminate toate "
+"înregistrările proprii de opțiuni și transienți."
+
+#: includes/class-k9-admin-dashboard.php:293
+msgid "Änderungen speichern"
+msgstr "Salvează modificările"
+
+#. translators: 1: rule edition, 2: minimum age in months, 3: passing points, 4: maximum points
+#: includes/class-k9-ecosystem-bridges.php:56
+#, php-format
+msgid "%1$s · Mindestalter %2$d Monate · Teil A ab %3$s von %4$s Punkten"
+msgstr "%1$s · Vârstă min. %2$d luni · Partea A de la %3$s din %4$s puncte"
+
+#: includes/class-k9-ecosystem-bridges.php:93
+msgid "BH/VT Prüfungsdaten"
+msgstr "Date examen BH/VT"
+
+#: includes/class-k9-ecosystem-bridges.php:122
+msgid "K9 BH Prüfungsinfo"
+msgstr "Informații examen K9 BH"
+
+#: includes/class-k9-ecosystem-bridges.php:129
+msgid "Datenfeld"
+msgstr "Câmp de date"
+
+#: includes/class-k9-rest-controller.php:153
+msgid "Zu viele Anfragen. Bitte kurz warten und erneut versuchen."
+msgstr "Prea multe cereri. Așteptați puțin și încercați din nou."
